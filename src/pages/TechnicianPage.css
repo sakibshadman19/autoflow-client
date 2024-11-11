@@ -1,0 +1,98 @@
+.technician-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 6em;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.client-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.client-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.client-name {
+  font-size: 20px;
+  color: #333;
+}
+
+.car-model {
+  font-size: 16px;
+  color: #555;
+}
+
+.button-status {
+  width: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: default;
+}
+
+.button-status.complete {
+  background-color: green;
+}
+
+.button-status.not-complete {
+  background-color: red;
+}
+
+.complete-card {
+  background-color: #e0e0e0;
+  opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+  .technician-container {
+    padding: 15px;
+  }
+
+  .client-card {
+    padding: 15px;
+  }
+
+  .client-name {
+    font-size: 18px;
+  }
+
+  .car-model {
+    font-size: 14px;
+  }
+
+  .button-status {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

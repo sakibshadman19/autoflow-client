@@ -1,0 +1,36 @@
+.client-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  height: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.complete-button {
+  width: 100%;
+  padding: 15px;
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.complete-button:hover {
+  background-color: darkgreen;
+}
